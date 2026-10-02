@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <mach/thread_policy.h>
 #include <mach/task_info.h>
+#include <mach/thread_act.h>
 #include <sys/types.h>
 #include <sys/sysctl.h>
-#include <mach/thread_policy.h>
-#include <mach/thread_act.h>
 #include <pthread.h>
 
 #include "affinity.h"
